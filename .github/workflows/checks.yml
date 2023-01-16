@@ -12,8 +12,8 @@ jobs:
       - name: Login to Docker hub
         uses: docker/login-action0v1
         with:
-          username: ${{secrets.DOCKERHUB_USER}}
-          password: ${{secrets.DOCKERHUB_token}}
+          username: ${{secrets.MCR92}}
+          password: ${{secrets.MCR92_TOKEN}}
       - name: Checkout
         user: actions/checkout@v2
       - name: Test
